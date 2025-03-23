@@ -22,13 +22,6 @@ module BalancingGames where
   balancedGames :: [Player] -> [Game]
   balancedGames players = error "not implemented"
 
-
-  highestSkillLevel :: Player -> Player -> Ordering
-  highestSkillLevel (Player _ _ skillLevel1 _ _) (Player _ _ skillLevel2 _ _)
-    | skillLevel1 > skillLevel2 = GT
-    | skillLevel1 < skillLevel2 = LT
-    | otherwise = EQ
-
   {- Write a function that given a list of games, calculates the average skill level per game.
    
    This function is just an extra exercise, it should be required for implementing balancedGames.
