@@ -1,5 +1,41 @@
-## Videogame matchmaking kata
+# Videogame matchmaking kata
 Largely taken from https://github.com/davidwhitney/CodeDojos
+
+## How to run
+There are a couple of easy ways to start coding in Haskell
+
+### Locally
+
+#### Installing
+1. Get ghcup https://www.haskell.org/ghcup/
+2. Use ghcup to install ghc (the Haskell Compiler)
+```
+ghcup install ghc 9.10.1
+```
+#### Running
+To run the whole project use
+2. Open the program in the interactive ghc shell using
+```
+ghci MatchMaker.hs
+```
+3. Run the program using
+```
+ghci> Main.main
+```
+4. Reload file changes and recompile using
+```
+reload
+```
+
+You can also run individual functions or modules.  
+For example to run electHosts (defined in ElectHosts/ElectHosts.hs) with players (defined in Players.hs)
+```
+ghci> electHosts players
+```
+
+(Optionally) Get Visual Studio Code and download the Haskell Plugin
+
+## The Kata
 
 Matchmaking is a common part of online video games.  While reading the changelog for the latest revision of "Halo: The Master Chief Collection" (http://www.polygon.com/2014/12/8/7352941/another-major-update-hits-halo-the-master-chief-collection-for), it became apparent that it's something that can easily go wrong, and has lots of interesting subtleties - and is ripe for the slaying with some traditional TDD.
 
