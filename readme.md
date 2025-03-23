@@ -21,7 +21,7 @@ cabal repl MatchMaker.hs
 ```
 3. Run the program using
 ```
-ghci> main
+ghci> createDeathMatch
 ```
 4. Reload file changes and recompile using
 ```

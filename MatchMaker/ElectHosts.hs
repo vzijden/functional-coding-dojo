@@ -15,5 +15,4 @@ module ElectHosts where
   --}
   electHost :: [Player] -> [Player]
   electHost [] = [] -- This is type matching on the empty list
-  electHost players = take 1 $ sortBy lowestLatency players
-
+  electHost players = error "not Implemented"

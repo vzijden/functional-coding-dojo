@@ -20,12 +20,7 @@ module BalancingGames where
    you might want to create additional functions. See ElectHosts for inspiration.
    -}
   balancedGames :: [Player] -> [Game]
-  balancedGames [] = [] -- This is pattern matching on an empty list argument
-  balancedGames players = chunk (sortBy highestSkillLevel players) 6
-
-  chunk :: [Player] -> Int -> [Game]
-  chunk [] _ = []
-  chunk players amount = take amount players : chunk (drop amount players) amount
+  balancedGames players = error "not implemented"
 
 
   highestSkillLevel :: Player -> Player -> Ordering
@@ -42,9 +37,4 @@ module BalancingGames where
    look into sum and div.
    -}
   averageSkillLevels :: [Game] -> [Int]
-  averageSkillLevels [] = []
-  averageSkillLevels (x:xs) = div (sum $ getSkillLevels x) (length x) : averageSkillLevels xs
-
-  getSkillLevels :: [Player] -> [Int]
-  getSkillLevels (x:xs) = skill x : getSkillLevels xs
-  getSkillLevels [] = []
+  averageSkillLevels players = error "not implemented"
