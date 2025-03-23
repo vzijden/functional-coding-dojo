@@ -25,7 +25,7 @@ ghci> main
 ```
 4. Reload file changes and recompile using
 ```
-reload
+:reload
 ```
 
 You can also run individual functions or modules.  
