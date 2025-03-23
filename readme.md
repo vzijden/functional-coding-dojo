@@ -1,6 +1,12 @@
 # Functional Programming Videogame matchmaking kata
 Partly taken from https://github.com/davidwhitney/CodeDojos
 
+
+## Useful sources
+- https://www.haskell.org/tutorial/functions.html
+- https://www.haskell.org/tutorial/patterns.html
+- https://hackage.haskell.org/package/CheatSheet-2.7/src/CheatSheet.pdf
+
 ## How to run
 There are a couple of easy ways to start coding in Haskell
 
