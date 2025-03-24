@@ -45,7 +45,7 @@ ghci> electHosts players
 
 ### Web IDE
 
-I have uploaded to project to (codeboard.io)[https://codeboard.io/projects/515449]
+I have uploaded to project to [codeboard.io](https://codeboard.io/projects/515449)
 
 
 ## The Kata
