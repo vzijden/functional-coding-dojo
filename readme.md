@@ -43,6 +43,10 @@ ghci> electHosts players
 
 (Optionally) Get Visual Studio Code and download the Haskell Plugin
 
+### Web IDE
+
+I have uploaded to project to (codeboard.io)[https://codeboard.io/projects/515449]
+
 
 ## The Kata
 
@@ -75,7 +79,7 @@ We have a pool of players all looking to play a balanced, 6 player, free-for-all
 ### Project setup
 The source files for you to edit can be found in the MatchMaking dir.
 
-The main code is in [MatchMaker.hs](MatchMaker/MatchMaker.hs). [Players.hs](MatchMaker/Players.hs) contains the Player and Game data types and a example list of players to test the application with. 
+The main code is in [Main.hs](MatchMaker/MatchMaker.hs). [Players.hs](MatchMaker/Players.hs) contains the Player and Game data types and a example list of players to test the application with. 
 For the matchmaking process, [ElectHosts.hs](MatchMaker/ElectHosts.hs) and [BalancingGames.hs](MatchMaker/BalancingGames.hs) is used. For the implementation of the stories below, you should edit these two files. 
 
 ### Story 1 - Electing Hosts
