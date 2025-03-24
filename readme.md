@@ -95,7 +95,7 @@ For the matchmaking process, [ElectHosts.hs](MatchMaker/ElectHosts.hs) and [Bala
 
     Accept:
       Minimise the standard deviation of skill between players
-      It's OK to make smaller, more balanced games if enough hosts are available
+      Games should be between 2 and 6 players.
 
 ### Story 3 - Friends play together
 

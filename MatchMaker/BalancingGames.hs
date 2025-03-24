@@ -3,7 +3,7 @@ module BalancingGames where
   import Data.List
 
   {-
-   Implement a function that creates games of max 6 players.
+   Implement a function that creates games of 2 to 6 players.
    The games should be as balanced as possible, meaning that the deviation of the skill levels per group should be as low as possible.
 
    Game is a type alias for [Player]
