@@ -102,3 +102,4 @@ For the matchmaking process, [ElectHosts.hs](MatchMaker/ElectHosts.hs) and [Bala
     As a server
     When I form teams
     Then players who are partied together should be in the same Game
+

@@ -11,7 +11,7 @@ module ElectHosts where
     
   {-- 
   Implement the function that elects a player as host based on their latency.
-  Tip: use the take and sortBy functions.
+  Tip: use the lowestLatency, take and sortBy functions.
   --}
   electHost :: [Player] -> [Player]
   electHost [] = [] -- This is type matching on the empty list
